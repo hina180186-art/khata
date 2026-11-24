@@ -1,0 +1,39 @@
+{
+  "name": "SteelKhata AI - Smart Stainless Steel & Pipe Inventory SaaS",
+  "short_name": "SteelKhata",
+  "description": "Zero-typing camera-first Khata and Inventory PWA for Pakistani Stainless Steel & Pipe Stores",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F172A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan Bill (Katchi Parchi)",
+      "url": "/scan",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Khatay & Udhaar",
+      "url": "/khatay",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Steel Stock",
+      "url": "/stock",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
